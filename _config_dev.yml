@@ -1,12 +1,12 @@
 # Site Settings
 title: Start Jekyll
-email: Volodymyr.Shabala@gmail.com
+email: taniarascia@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: "/startjekyll"
-url: "http://taniarascia.github.io"
-twitter_username: VolodymyrShabala
-github_username:  VolodymyrShabala
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: taniarascia
+github_username:  taniarascia
 # Build Settings
 sass:
   sass_dir: _sass

@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
+
 <body>
-    <h1>Portfolio</h1>
-    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+	{% include header.html %}
+	<main>
+		<article>
+			{{ content }}
+		</article>
+		{% include footer.html %}
+	</main>
 </body>
-</html>
 
-<header class="masthead">
-    <strong>Portfolio</strong>
-    {% include nav.html navclass='nav-top'%}
-</header>
-
-{{content}}
-
-<footer>
-    {% include nav.html navclass='nav-bottom'%}
-</footer>
-
-</body>
 </html>
