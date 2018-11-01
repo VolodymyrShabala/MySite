@@ -2,20 +2,20 @@
 <html>
 <body>
     <h1>Portfolio</h1>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </body>
 </html>
 
-<header>
+<header class="masthead">
     <strong>Portfolio</strong>
-    <nav>
-        <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/news.html">News</a></li>
-        </ul>
-    </nav>
+    {% include nav.html navclass='nav-top'%}
 </header>
 
 {{content}}
+
+<footer>
+    {% include nav.html navclass='nav-bottom'%}
+</footer>
 
 </body>
 </html>
