@@ -1,15 +1,26 @@
-# Site Settings
-title: Volodymyr Shabala
-email: Volodymyr.Shabala@gmail.com
-description: >
-  My portfolio
-baseurl: "/Portfolio"
-url: "http://volodymyrshabala.github.io"
-twitter_username: VolodymyrShabala
-github_username:  VolodymyrShabala
-# Build Settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
+# Site settings
+title: Portfolio
+email: volodymyr.shabala@gmail.com
+url: https://volodymyrshabala.github.io
+description: "I am a game programmer with knowledge of C++ and Unreal and C# and Unity."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Volodymyr Shabala
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/volodymyr.shabala
+  - title: linkedin
+    url: https://www.linkedin.com/in/volodymyr-shabala-84522b137/
+  - title: github
+    url: https://github.com/VolodymyrShabala
+
+# Build settings
+markdown: kramdown
+permalink: pretty
