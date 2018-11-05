@@ -6,24 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Volodymyr Shabala
+title: My Portfolio
 email: volodymyr.shabala@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Game programmer - C# - Unity - C++ - Unreal
+  Volodymyr Shabala, volodymyr.shabala@gmail.com
 baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 url: "https://volodymyrshabala.github.io" # the base hostname & protocol for your site
-
-# Social media profiles - feel free to add more here
-github_username:  VolodymyrShabala
-facebook_username: volodymyr.shabala
-linkedin_url: https://www.linkedin.com/in/volodymyr-shabala-84522b137/
-#instagram_username: beyonce
-#stackoverflow_url: https://
-#googleplus_username: BobMarley
-#skype_username: echo123
-
-# Address information
-address_city: Stockholm
+github_username:  volodymyrshabala
 
 # Build settings
 markdown: kramdown

@@ -1,1 +1,1 @@
-Freelancer Jekyll Version
+Jekyll template
