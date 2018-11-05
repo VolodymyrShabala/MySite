@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "AI"
+date:   2017-06-01 15:08:10 -0500
+img: img/portfolio/safe.png
+modalID: modalSafe
+category: Game programming
+---
+I wanted to create an AI system where you can choose what behaviors an enemy should have by choosing from existing behaviors.
+
+<iframe width="840" height="630" src="https://drive.google.com/file/d/13j_ipxzvLKwuB_lYHHvLpHkN1I0Hgo9i/preview" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<a href="https://drive.google.com/drive/folders/1l_zEuL5VVY5mg2avLcEm-ruhp7V3DqI0">View sorce code</a>
