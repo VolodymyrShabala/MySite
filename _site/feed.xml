@@ -4,10 +4,10 @@
     <title>My Portfolio</title>
     <description>Volodymyr Shabala, volodymyr.shabala@gmail.com
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Nov 2018 18:32:12 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Nov 2018 18:32:12 +0100</lastBuildDate>
+    <link>http://localhost:4000/Portfolio/</link>
+    <atom:link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 05 Nov 2018 18:42:04 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Nov 2018 18:42:04 +0100</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/VolodymyrShabala/Shop-game&quot;&gt;View sorce code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jun 2018 11:31:49 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2018/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/06/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2018/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2018/06/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -38,8 +38,8 @@
 &lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1l_zEuL5VVY5mg2avLcEm-ruhp7V3DqI0&quot;&gt;View sorce code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Feb 2018 10:31:49 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2018/02/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/02/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2018/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2018/02/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -56,8 +56,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/VolodymyrShabala/Tower-Defence&quot;&gt;View sorce code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2017 11:31:49 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/05/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/05/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2017/05/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2017/05/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -74,8 +74,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/VolodymyrShabala/Battle-Ship&quot;&gt;View sorce code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Oct 2016 11:31:49 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/10/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/10/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2016/10/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2016/10/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -102,8 +102,8 @@
 
 </description>
         <pubDate>Wed, 30 Mar 2016 11:31:49 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/03/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/03/30/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2016/03/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2016/03/30/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -130,8 +130,8 @@
 
 </description>
         <pubDate>Wed, 30 Mar 2016 11:31:49 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/03/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/03/30/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/Portfolio/jekyll/update/2016/03/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Portfolio/jekyll/update/2016/03/30/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
