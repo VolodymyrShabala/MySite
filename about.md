@@ -9,4 +9,4 @@ I have a 3 years experience working with C# and Unity and my C++ education begun
 
 You can view my CV [here][CV].
 
-[CV]: {{site.url}}/assets/Volodymyr_CV.pdf
+[CV]: {{site.url}}/Portfolio/assets/Volodymyr_CV.pdf
