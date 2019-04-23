@@ -13,12 +13,12 @@ During the project I worked on camera, menu, tutorial etc. But my main focus was
 
 Code samples comming soon. But you can download and play the game in the link down below.
 
-<iframe width="840" height="630" src="{{site.url}}/Portfolio/assets/PolarityShift_Trailer.mp4" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe width="840" height="550" src="{{site.url}}/Portfolio/assets/PolarityShift_Trailer.mp4" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 <a href="https://drive.google.com/open?id=1xekIfMAPPeOHBK5hPr1w9AH1wMI8EZK9">Download game here</a>
 
 Code sample: 
-After I refactored
+After refactoring
 {% highlight C# %}
 void USMMovableComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction){
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
