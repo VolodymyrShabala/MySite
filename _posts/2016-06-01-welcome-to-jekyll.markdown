@@ -15,5 +15,12 @@ Code samples comming soon. But you can download and play the game in the link do
 
 <iframe width="840" height="630" src="{{site.url}}/Portfolio/assets/PolarityShift_Trailer.mp4" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
-
 <a href="https://drive.google.com/open?id=1xekIfMAPPeOHBK5hPr1w9AH1wMI8EZK9">Download game here</a>
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
