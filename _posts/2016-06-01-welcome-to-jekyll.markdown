@@ -17,10 +17,85 @@ Code samples comming soon. But you can download and play the game in the link do
 
 <a href="https://drive.google.com/open?id=1xekIfMAPPeOHBK5hPr1w9AH1wMI8EZK9">Download game here</a>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+Code sample: 
+After I refactored
+{% highlight C++ %}
+void USMMovableComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction){
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	if(!AttachedToActor){
+		return;
+	}
+		FVector MoveDirection = AttachedToActor->GetActorLocation() - GetOwner()->GetActorLocation();
+	FVector MoveAmount = MoveDirection * FieldMoveSpeed * FApp::GetDeltaTime();
+
+	if (MoveAmount.Size() > ReleaseThreshold) {
+		Detach();
+		return;
+	}
+
+	MoveAmount.X = 0;
+	GetOwner()->AddActorWorldOffset(MoveAmount, true);
+
+	if (!CarriedCharacter)
+		return;
+
+	if(CarriedCharacter->bRequirePickupConsent){
+		if(bCarriedPositive){
+			if(!CarriedCharacter->MagnetComponent->bIsPositive){
+				Detach();
+				return;
+			}
+		} else{
+			if(!CarriedCharacter->MagnetComponent->bIsNegative){
+				Detach();
+				return;
+			}
+		}
+	}
+}
+{% endhighlight %}
+
+Before:
+{% highlight C++ %}
+void USMMovableComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) {
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	FHitResult Hit;
+	if (AttachedToActor) {
+		if (CarriedCharacter) {	
+			if (CarriedCharacter->bRequirePickupConsent) {
+				if (bCarriedPositive) {
+					if (CarriedCharacter->MagnetComponent->bIsPositive) {
+					} else {
+						Detach();
+						return;
+					}
+
+				} else {
+					if (CarriedCharacter->MagnetComponent->bIsNegative) {
+					} else {
+						Detach();
+						return;
+					}
+				}
+			}
+		}
+
+		FVector CurrentLocation = GetOwner()->GetActorLocation();
+		FVector TargetLocation = AttachedToActor->GetActorLocation();
+
+		FVector NewLocation = TargetLocation - CurrentLocation;
+
+		if (NewLocation.Size() > ReleaseThreshold) {
+			Detach();
+			return;
+		}
+
+		FVector MoveAmount = NewLocation * FieldMoveSpeed * FApp::GetDeltaTime();
+
+		GetOwner()->AddActorLocalOffset(MoveAmount, true, &Hit);
+	} else {
+		Detach();
+	}
+}
 {% endhighlight %}
