@@ -19,13 +19,14 @@ Code samples comming soon. But you can download and play the game in the link do
 
 Code sample: 
 After I refactored
-{% highlight C++ %}
+{% highlight C# %}
 void USMMovableComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction){
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	if(!AttachedToActor){
 		return;
 	}
-		FVector MoveDirection = AttachedToActor->GetActorLocation() - GetOwner()->GetActorLocation();
+
+	FVector MoveDirection = AttachedToActor->GetActorLocation() - GetOwner()->GetActorLocation();
 	FVector MoveAmount = MoveDirection * FieldMoveSpeed * FApp::GetDeltaTime();
 
 	if (MoveAmount.Size() > ReleaseThreshold) {
